@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: San Francisco, sans-serif;
+    padding: 64px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: solid thin;
+    background-color: black;
+    width: 250px;
+    height: 390px;
+    border-radius: 12px;;
+}
+
+#display {
+    padding-right: 20px;
+    color: white;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    height: 80px;
+    font-size: 40px;
+}
+
+.buttons {
+    display: flex;
+    gap: 4px;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.leftSection {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: space-around;
+}
+
+.lightGrayButtons {
+    display: flex;
+    gap: 4px;
+    justify-content: space-around;
+}
+
+.darkGrayButtons {
+    display: flex;
+    gap: 4px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.orangeButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: space-around;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: thin;
+    font-size: 22px;
+}
+
+.lightGrayButtons button {
+    background-color: darkGray;
+}
+
+.darkGrayButtons button {
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+.orangeButtons button {
+    background-color: orange;
+    color: white;
+}
+
+#zero {
+    width: 110px;
+    border-radius: 25px;
+    text-align: left;
+    padding-left: 20px;
+}
