@@ -249,3 +249,62 @@ add.addEventListener('click', function() {
 equals.addEventListener('click', function() {
     calculate("=");
 });
+
+document.addEventListener('keydown', function(event) {
+    switch(event.key) {
+        case "1":
+            updateDisplay(1);
+            break;
+        case "2":
+            updateDisplay(2);
+            break;
+        case "3":
+            updateDisplay(3);
+            break;
+        case "4":
+            updateDisplay(4);
+            break;
+        case "5":
+            updateDisplay(5);
+            break;
+        case "6":
+            updateDisplay(6);
+            break;
+        case "7":
+            updateDisplay(7);
+            break;
+        case "8":
+            updateDisplay(8);
+            break;
+        case "9":
+            updateDisplay(9);
+            break;
+        case "0":
+            updateDisplay(0);
+            break;
+        case "+":
+            calculate("+");
+            break;
+        case "/":
+            calculate("/");
+            break;
+        case "-":
+            calculate("-");
+            break;
+        case "*":
+            calculate("*");
+            break;
+        case "Enter":
+            calculate("=");
+            break;
+        case "%":
+            calculatePercent();
+            break;
+        case "Backspace":
+            clearAll();
+            break;
+        case ".":
+            addDecimal();
+            break;
+    }
+});
