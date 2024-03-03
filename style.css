@@ -12,7 +12,7 @@ body {
     border: solid thin;
     background-color: black;
     width: 250px;
-    height: 390px;
+    height: 380px;
     border-radius: 12px;;
 }
 
@@ -28,7 +28,7 @@ body {
 
 .buttons {
     display: flex;
-    gap: 4px;
+    gap: 8px;
     justify-content: space-around;
     margin: 10px;
 }
@@ -36,19 +36,19 @@ body {
 .leftSection {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 8px;
     justify-content: space-around;
 }
 
 .lightGrayButtons {
     display: flex;
-    gap: 4px;
+    gap: 8px;
     justify-content: space-around;
 }
 
 .darkGrayButtons {
     display: flex;
-    gap: 4px;
+    gap: 8px;
     justify-content: space-around;
     flex-wrap: wrap;
 }
@@ -56,7 +56,7 @@ body {
 .orangeButtons {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 8px;
     justify-content: space-around;
 }
 
